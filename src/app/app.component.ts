@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+// import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+ 
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'userproject';
+  title = 'userproject'; 
 }
